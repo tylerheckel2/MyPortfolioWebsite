@@ -1,31 +1,14 @@
-import './App.css';
 import React from "react";
+import App from "./App";
+import ProjectsPage from "./Projects";
+import ContactPage from "./Contact";
 import { Routes, Route, useNavigate} from "react-router-dom";
-import SkillsPage from './Skills';
-import ProjectsPage from './Projects';
-import ContactPage from './Contact';
 
-function Home() {
-  return <h2>Home</h2>
-}
+function SkillsPage(){
+    const navigate = useNavigate();
 
-function Skills() {
-  return <h2>Skills</h2>;
-}
-
-function Projects() {
-  return <h2>Projects</h2>;
-}
-
-function Contact() {
-  return <h2>Contact</h2>;
-}
-
-function App() {
-  const navigate = useNavigate();
-
-  return (
-    <div className="App">
+    return(
+        <div className="App">
       <header className="App-header">
         <h1>Tyler Heckel</h1>
         <nav>
@@ -74,7 +57,7 @@ function App() {
         <p>&copy; 2024 Tyler Heckel</p>
       </footer>
     </div>
-  );
+    );
 }
 
-export default App;
+export default SkillsPage;
