@@ -1,11 +1,7 @@
 import React from "react";
-import App from "./App";
-import SkillsPage from "./Skills";
-import ProjectsPage from "./Projects";
 import { BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
-import HomePage from "./Home";
 
-export default function ContactPage(){
+export default function ExperiencePage(){
   const navigate = useNavigate(); 
   const homeRouteChange = () =>{ 
       let path = `/home`; 
@@ -22,8 +18,8 @@ export default function ContactPage(){
       navigate(path);
   }
 
-  const contactRouteChange = () =>{ 
-      let path = `/contact`; 
+  const experienceRouteChange = () =>{ 
+      let path = `/experience`; 
       navigate(path);
   }
 
@@ -32,10 +28,10 @@ export default function ContactPage(){
       <header className="App-header">
         <h1>Tyler Heckel</h1>
         <nav>
-          <button class ="button" onClick={homeRouteChange}>Home</button>
-          <button class ="button" onClick={skillsRouteChange}>Skills</button>
-          <button class ="button" onClick={projectsRouteChange}>Projects</button>
-          <button class ="button" onClick={contactRouteChange}>Contact</button>
+        <button class ="flat-btn" onClick={homeRouteChange}>Home</button>
+          <button class ="flat-btn" onClick={skillsRouteChange}>Skills</button>
+          <button class ="flat-btn" onClick={projectsRouteChange}>Projects</button>
+          <button class ="flat-btn" onClick={experienceRouteChange}>Experience</button>
         </nav>
       </header>
       {/* <section id="projects">

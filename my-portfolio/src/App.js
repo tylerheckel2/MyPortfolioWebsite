@@ -3,7 +3,7 @@ import React from "react";
 import { Routes, Route, useNavigate, BrowserRouter} from "react-router-dom";
 import SkillsPage from './Skills';
 import ProjectsPage from './Projects';
-import ContactPage from './Contact';
+import ExperiencePage from './Experience';
 import HomePage from './Home';
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
         <Route path="/home" element={<HomePage/>}/>
         <Route path="/skills" element={<SkillsPage/>}/>
         <Route path="/projects" element={<ProjectsPage/>}/>
-        <Route path="/contact" element={<ContactPage/>}/>
+        <Route path="/experience" element={<ExperiencePage/>}/>
       </Routes>
       </BrowserRouter>
     </div>

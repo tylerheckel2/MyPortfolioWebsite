@@ -1,8 +1,4 @@
 import React from "react";
-import App from "./App";
-import ProjectsPage from "./Projects";
-import ContactPage from "./Contact";
-import SkillsPage from "./Skills";
 import { BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
 
 export default function HomePage() {
@@ -22,8 +18,8 @@ export default function HomePage() {
         navigate(path);
     }
 
-    const contactRouteChange = () =>{ 
-        let path = `/contact`; 
+    const experienceRouteChange = () =>{ 
+        let path = `/experience`; 
         navigate(path);
     }
 
@@ -32,20 +28,32 @@ export default function HomePage() {
       <header className="App-header">
         <h1>Tyler Heckel</h1>
         <nav>
-          <button class ="button" onClick={homeRouteChange}>Home</button>
-          <button class ="button" onClick={skillsRouteChange}>Skills</button>
-          <button class ="button" onClick={projectsRouteChange}>Projects</button>
-          <button class ="button" onClick={contactRouteChange}>Contact</button>
+          <button class ="flat-btn" onClick={homeRouteChange}>Home</button>
+          <button class ="flat-btn" onClick={skillsRouteChange}>Skills</button>
+          <button class ="flat-btn" onClick={projectsRouteChange}>Projects</button>
+          <button class ="flat-btn" onClick={experienceRouteChange}>Experience</button>
         </nav>
       </header>
       <div>
           <p></p>
-          <img src="IMG_2099.jpg" width = "35%" alt="Photo of Tyler Heckel"/>
+          <img src="IMG_2099.jpg" width = "20%" alt="Photo of Tyler Heckel"/>
           <p></p>
         </div>
       <section id="about">
         <h2>About Me</h2>
-        <p>Introduction about myself.</p>
+        <div class ="typing-area">
+        <p class ="typing-area">Hello, I am Tyler Heckel and I am from Port Chester, New York. I am currently a rising Junior attending Villanova University on track to graduate with my Bachelor of Science degree
+            in May 2026. I am majoring in Computer Science and minoring in both Cybersecurity and Engineering Entrepreneurship. I aspire to be a successful Software Engineer
+            and I am actively searching for internship opportunities in various industries to expand my knowledge and gain more professional experience. I have created this website to showcase
+            my talent, professional experience, and project portfolio.
+        </p>
+        </div>
+        <h2>Contact Information</h2>
+        <div class ="typing-area">
+        <p class ="typing-area">
+            Personal Email: tylerheckel2@gmail.com. School Email: thecke01@villanova.edu. Cell-phone Number: 914-758-2243.
+        </p>
+        </div>
       </section>
       {/* <section id="projects">
         <h2>Projects</h2>

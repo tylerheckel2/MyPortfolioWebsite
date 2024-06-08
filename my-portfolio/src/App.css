@@ -36,15 +36,48 @@ footer {
   background-color: #182c55;
   color: white;
   padding: 10px;
-  position: fixed;
+  position:static;
   bottom: 0;
   width: 100%;
 }
 
 .button{
-  background-color: white;
+  background-color: #182c55;
   border: solid;
+  border-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.75em;
+  color: white;
+  padding: 0.5;
+}
+
+.button:hover{
+  background-color: #313739;
+  color: white;
+  cursor: pointer;
+}
+
+
+.flat-btn {
+  background-color: white;
+  color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.2em;
-  padding: 0.5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.flat-btn:hover {
+  background-color: #2980b9;
+  font-size: 1.5em;
+}
+
+.typing-area {
+  max-width: 750px;
+  padding-bottom: 5px;
+  padding-left: 260px;
 }
