@@ -2,30 +2,42 @@ import React from "react";
 import App from "./App";
 import ProjectsPage from "./Projects";
 import ContactPage from "./Contact";
-import { Routes, Route, useNavigate} from "react-router-dom";
+import { BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
+import HomePage from "./Home";
 
-function SkillsPage(){
-    const navigate = useNavigate();
+export default function SkillsPage(){
+  const navigate = useNavigate(); 
+  const homeRouteChange = () =>{ 
+      let path = `/home`; 
+      navigate(path);
+  }
+
+  const skillsRouteChange = () =>{ 
+      let path = `/skills`; 
+      navigate(path);
+  }
+
+  const projectsRouteChange = () =>{ 
+      let path = `/projects`; 
+      navigate(path);
+  }
+
+  const contactRouteChange = () =>{ 
+      let path = `/contact`; 
+      navigate(path);
+  }
 
     return(
         <div className="App">
       <header className="App-header">
         <h1>Tyler Heckel</h1>
         <nav>
-          <button class ="button" onClick={() => navigate('/')}>Home</button>
-          <button class ="button" onClick={() => navigate('/Skills')}>Skills</button>
-          <button class ="button" onClick={() => navigate('/Projects')}>Projects</button>
-          <button class ="button" onClick={() => navigate('/Contact')}>Contact</button>
+          <button class ="button" onClick={homeRouteChange}>Home</button>
+          <button class ="button" onClick={skillsRouteChange}>Skills</button>
+          <button class ="button" onClick={projectsRouteChange}>Projects</button>
+          <button class ="button" onClick={contactRouteChange}>Contact</button>
         </nav>
       </header>
-      <main>
-        <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="/Skills" element={<SkillsPage />} />
-          <Route path="/Projects" element={<ProjectsPage />} />
-          <Route path="/Contact" element={<ContactPage />} />
-        </Routes>
-      </main>
       <div>
           <p></p>
           <img src="IMG_2099.jpg" width = "35%" alt="Photo of Tyler Heckel"/>
@@ -59,5 +71,3 @@ function SkillsPage(){
     </div>
     );
 }
-
-export default SkillsPage;

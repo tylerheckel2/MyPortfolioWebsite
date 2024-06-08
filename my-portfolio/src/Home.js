@@ -1,31 +1,31 @@
 import React from "react";
 import App from "./App";
-import SkillsPage from "./Skills";
+import ProjectsPage from "./Projects";
 import ContactPage from "./Contact";
+import SkillsPage from "./Skills";
 import { BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
-import HomePage from "./Home";
 
-export default function ProjectsPage(){
-  const navigate = useNavigate(); 
-  const homeRouteChange = () =>{ 
-      let path = `/home`; 
-      navigate(path);
-  }
+export default function HomePage() {
+    const navigate = useNavigate(); 
+    const homeRouteChange = () =>{ 
+        let path = `/home`; 
+        navigate(path);
+    }
 
-  const skillsRouteChange = () =>{ 
-      let path = `/skills`; 
-      navigate(path);
-  }
+    const skillsRouteChange = () =>{ 
+        let path = `/skills`; 
+        navigate(path);
+    }
 
-  const projectsRouteChange = () =>{ 
-      let path = `/projects`; 
-      navigate(path);
-  }
+    const projectsRouteChange = () =>{ 
+        let path = `/projects`; 
+        navigate(path);
+    }
 
-  const contactRouteChange = () =>{ 
-      let path = `/contact`; 
-      navigate(path);
-  }
+    const contactRouteChange = () =>{ 
+        let path = `/contact`; 
+        navigate(path);
+    }
 
     return(
         <div className="App">
