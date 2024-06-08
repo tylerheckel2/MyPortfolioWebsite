@@ -38,15 +38,6 @@ export default function SkillsPage(){
           <button class ="button" onClick={contactRouteChange}>Contact</button>
         </nav>
       </header>
-      <div>
-          <p></p>
-          <img src="IMG_2099.jpg" width = "35%" alt="Photo of Tyler Heckel"/>
-          <p></p>
-        </div>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Introduction about myself.</p>
-      </section>
       {/* <section id="projects">
         <h2>Projects</h2>
         <div className="project">
