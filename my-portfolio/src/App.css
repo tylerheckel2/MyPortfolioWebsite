@@ -111,13 +111,13 @@ footer {
   /* padding-left: 25px; */
 }
 
-.styled-table tbody tr {
+.styled-table tbody tr .academic {
   border-bottom: 1px solid #dddddd;
 }
 
-.styled-table tbody tr:nth-of-type(even) {
+/* .styled-table tbody tr:nth-of-type(even) {
   background-color: #f3f3f3;
-}
+} */
 
 .styled-table tbody tr:last-of-type {
   border-bottom: 2px solid #2980b9;
@@ -148,3 +148,7 @@ footer {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow to images */
 }
 
+.project-header {
+  font-weight:500;
+  color: black;
+}
