@@ -48,10 +48,10 @@ export default function HomePage() {
             my talent, professional experience, and project portfolio.
         </p>
         </div>
-        <h2>Contact Information</h2>
+        <h2>Connect With Me</h2>
         <div class ="typing-area">
         <p class ="typing-area">
-            Personal Email: tylerheckel2@gmail.com. School Email: thecke01@villanova.edu. Cell-phone Number: 914-758-2243.
+            Email: <a href="mailto:tylerheckel2@gmail.com">tylerheckel2@gmail.com</a><br></br>Cellphone Number: 914-758-2243<br></br><a href="https://github.com/tylerheckel2">GitHub Profile</a> | <a href="https://villanova.joinhandshake.com/stu/users/40794812">Handshake Profile</a>
         </p>
         </div>
       </section>
