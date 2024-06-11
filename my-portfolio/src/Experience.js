@@ -34,6 +34,7 @@ export default function ExperiencePage(){
           <button class ="flat-btn" onClick={experienceRouteChange}>Experience</button>
         </nav>
       </header>
+      <h2>Professional Experience</h2>
       {/* <section id="projects">
         <h2>Projects</h2>
         <div className="project">
