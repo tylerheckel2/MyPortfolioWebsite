@@ -62,8 +62,8 @@ export default function ExperiencePage(){
         </thead>
         <tbody>
           <tr class ="td-typing-area">
-            <td><img src="GamesForLove.png" width = "25%" alt="Games for Love Logo"/><br></br><a class="project-header">Games for Love</a></td>
-            <td><a class="project-header">Game Developer Intern | June 2024 - Present</a><br></br></td>
+            <td><img src="GamesForLove.png" width = "55%" alt="Games for Love Logo"/><br></br><a class="project-header">Games for Love</a></td>
+            <td><a class="project-header">Game Developer Intern | June 2024 - Present</a><br></br>-Collaborated with a team of interns to develop a game using Unity Game Engine and C# scripting.<br></br>-Programmed various game features, contributed to level design, and coordinated and facilitated collaboration between team members.<br></br>-Created for submission to Games for Love's Cause Jam to be featured in a charity bundle sold to raise funds to support children in hospitals.</td>
           </tr>
           {/* <tr>
             <td>Data 1</td>
