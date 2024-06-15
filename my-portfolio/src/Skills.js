@@ -93,7 +93,7 @@ export default function SkillsPage(){
         </div>
     </div>
       <footer>
-        <p>&copy; 2024 Tyler Heckel</p>
+        <p>2024 Tyler Heckel</p>
       </footer>
     </div>
     );

@@ -128,7 +128,7 @@ export default function ExperiencePage(){
       </table>
       <img src="VillanovaV.png" width="18%" alt="Image 1"/>
       <footer>
-        <p>&copy; 2024 Tyler Heckel</p>
+        <p>2024 Tyler Heckel</p>
       </footer>
     </div>
     );
