@@ -43,15 +43,15 @@ export default function HomePage() {
         <h2>About Me</h2>
         <div class ="typing-area">
         <p class ="typing-area">Hello, I am Tyler Heckel and I am from Port Chester, New York. I am currently a rising Junior attending Villanova University on track to graduate with my Bachelor of Science degree
-            in May 2026. I am majoring in Computer Science and minoring in both Cybersecurity and Engineering Entrepreneurship. I aspire to be a successful Software Engineer
-            and I am actively searching for internship opportunities in various industries to expand my knowledge and gain more professional experience. I have created this website to showcase
+            in May 2026. I am majoring in Computer Science and minoring in Cybersecurity and Engineering Entrepreneurship. I aspire to be a successful Software Engineer
+            and I am actively searching for internship opportunities in various industries to expand my knowledge and gain more professional experience. I have developed this website myself to showcase
             my talent, professional experience, and project portfolio.
         </p>
         </div>
         <h2>Connect With Me</h2>
         <div class ="typing-area">
         <p class ="typing-area">
-            Email: <a href="mailto:tylerheckel2@gmail.com">tylerheckel2@gmail.com</a><br></br>Cellphone Number: 914-758-2243<br></br><a href="https://github.com/tylerheckel2">GitHub Profile</a> | <a href="https://villanova.joinhandshake.com/stu/users/40794812">Handshake Profile</a>
+            Email: <a href="mailto:tylerheckel2@gmail.com">tylerheckel2@gmail.com</a><br></br>Cellphone Number: 914-758-2243<br></br><a href="https://github.com/tylerheckel2">GitHub</a> | <a href="https://villanova.joinhandshake.com/stu/users/40794812">Handshake</a> | <a href="https://www.linkedin.com/in/tyler-heckel-1434b52b4/">LinkedIn</a> | <a href="https://tylerheckel2.itch.io/">Itch.io</a>
         </p>
         </div>
       </section>

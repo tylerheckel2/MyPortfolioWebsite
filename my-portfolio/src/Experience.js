@@ -62,8 +62,8 @@ export default function ExperiencePage(){
         </thead>
         <tbody>
           <tr class ="td-typing-area">
-            <td><img src="GamesForLove.png" width = "55%" alt="Games for Love Logo"/><br></br><a class="project-header">Games for Love</a></td>
-            <td><a class="project-header">Game Developer Intern | June 2024 - Present</a><br></br>-Collaborated with a team of interns to develop a game using Unity Game Engine and C# scripting.<br></br>-Programmed various game features, contributed to level design, and coordinated and facilitated collaboration between team members.<br></br>-Created for submission to Games for Love's Cause Jam to be featured in a charity bundle sold to raise funds to support children in hospitals.</td>
+            <td><img src="GamesForLove.png" width = "55%" alt="Games for Love Logo"/><br></br><a class="project-header">Games For Love</a></td>
+            <td><a class="project-header">Game Developer Intern | June 2024 - Present</a><br></br>-Collaborated with a team of interns to develop a multi-level 2D mining game called Culinary Caverns, utilizing Unity Game Engine and C# scripting.<br></br>-Programmed various game features including player movement and animation, terrain seed generation, abilities for the player to break and collect blocks, and a dynamic inventory UI system to store and show collected items.<br></br>-Implemented background music, sound effects, and level completion cues to enhance the user experience.<br></br>-Contributed to game and level design by coordinating and facilitating collaboration between team members through the use of GitHub and Trello, and organizing Discord meetings.<br></br>-Created for submission to Games for Love's Cause Jam to be featured in a charity bundle sold to raise funds to support children in hospitals.</td>
           </tr>
           {/* <tr>
             <td>Data 1</td>

@@ -57,12 +57,12 @@ export default function ProjectsPage(){
         <thead>
           <tr>
             <th>Academic Projects</th>
-            <th>Personal Projects</th>
+            <th>Professional and Professional Projects</th>
           </tr>
         </thead>
         <tbody>
           <tr class ="td-typing-area">
-            <td class="academic"><a class="project-header">OpenCourt App | Full-Stack Developer | May 2024</a><br></br>-Collaborated with a team to develop a pickup basketball app compatible with Android and Web
+            <td class="academic"><a class="project-header">OpenCourt App | Full-Stack Developer | January 2024 - May 2024</a><br></br>-Collaborated with a team to develop a pickup basketball app compatible with Android and Web
           devices, utilizing the capabilities of Flutter and Dart to enable users to efficiently organize pickup
           basketball games.<br></br>-Utilized HTML and CSS styling to create an engaging and interactive user interface for efficient
           navigation between pages and access to various app features.<br></br>-Integrated Google Maps API functionality to display an interactive satellite map of Villanova
@@ -71,10 +71,7 @@ export default function ProjectsPage(){
           they are using a court and view the current population of users on a court.<br></br>-Utilized Firebase to develop a secure user authentication system, enabling users to sign up, log in,
           and store credentials.
             </td>
-            <td class="academic"><a class="project-header">Multi-level 2D Platformer Game | Lead Game Developer | August 2023</a><br></br>-Developed a dynamic and engaging multi-level 2D platformer game using Unity Game Engine and C#
-          scripting.<br></br>-Implemented player movement mechanics and animations, incorporating player death logic and
-          responsive level restart mechanics upon collision with traps.<br></br>-Designed challenging levels and integrated 2D enemy AI to enhance gameplay excitement.<br></br>-Integrated a real-time item collection system with a visible counter, background music, and sound
-          effects for jumping, item collection, player demise, and level completion cues.
+            <td class="academic"><a class="project-header">Culinary Caverns | Lead Programmer/Level Designer | Games For Love | June 2024 - August 2024</a><br></br>-Collaborated with a team of interns to develop a multi-level 2D mining game utilizing Unity Game Engine and C# scripting.<br></br>-Programmed various game features including player movement and animation, terrain seed generation, abilities for the player to break and collect blocks, and a dynamic inventory UI system to store and show collected items.<br></br>-Implemented background music, sound effects, and level completion cues to enhance the user experience.<br></br>-Contributed to game and level design by coordinating and facilitating collaboration between team members through the use of GitHub and Trello, and organizing Discord meetings.<br></br>-Created for submission to Games for Love's Cause Jam to be featured in a charity bundle sold to raise funds to support children in hospitals.
             </td>
           </tr>
 
@@ -83,6 +80,11 @@ export default function ProjectsPage(){
             ensuring an efficient and engaging user experience with weekly updates to statistics.<br></br>-Integrated navigation functionality to allow the user to efficiently and effectively navigate between
             different statistics pages.<br></br>-Implemented a database using Firebase to establish a secure user authentication system, allowing
             users to sign up and store credentials.
+            </td>
+            <td class="academic"><a class="project-header">Multi-level 2D Platformer Game | Lead Game Developer | Personal Project | August 2023</a><br></br>-Developed a dynamic and engaging multi-level 2D platformer game using Unity Game Engine and C#
+          scripting.<br></br>-Implemented player movement mechanics and animations, incorporating player death logic and
+          responsive level restart mechanics upon collision with traps.<br></br>-Designed challenging levels and integrated 2D enemy AI to enhance gameplay excitement.<br></br>-Integrated a real-time item collection system with a visible counter, background music, and sound
+          effects for jumping, item collection, player demise, and level completion cues.
             </td>
           </tr>
 
@@ -112,7 +114,7 @@ export default function ProjectsPage(){
     <h2>GitHub Project Links</h2>
         <div class ="typing-area">
         <p class ="typing-area">
-            <a href="https://github.com/tylerheckel2">GitHub Profile</a><br></br><a href="https://github.com/Chegarty123/SEOpenCourtFinal.git">OpenCourt App</a> | <a href="https://github.com/tylerheckel2/NBAStatsWebsiteProject.git">NBA Statistics Tracker Website</a> | <a href="https://github.com/tylerheckel2/MultiLevel2DPlatformerGame.git">Multi-level 2D Platformer Game</a>
+            <a href="https://github.com/tylerheckel2">GitHub Profile</a><br></br><a href="https://github.com/Chegarty123/SEOpenCourtFinal.git">OpenCourt App</a> | <a href="https://github.com/tylerheckel2/NBAStatsWebsiteProject.git">NBA Statistics Tracker Website</a> | <a href="https://github.com/tylerheckel2/MultiLevel2DPlatformerGame.git">Multi-level 2D Platformer Game</a> | <a href="https://github.com/tylerheckel2/CulinaryCaverns">Culinary Caverns</a> | <a href="https://github.com/tylerheckel2/MyPortfolioWebsite">This Website</a>
         </p>
         </div>
       <footer>
