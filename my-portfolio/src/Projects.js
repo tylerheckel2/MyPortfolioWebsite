@@ -57,7 +57,7 @@ export default function ProjectsPage(){
         <thead>
           <tr>
             <th>Academic Projects</th>
-            <th>Professional and Professional Projects</th>
+            <th>Personal and Professional Projects</th>
           </tr>
         </thead>
         <tbody>
