@@ -76,10 +76,7 @@ export default function ProjectsPage(){
           </tr>
 
           <tr>
-            <td class ="academic"><a class="project-header">NBA Statistics Tracker Website | Full-Stack Developer | December 2023</a><br></br>-Developed an NBA Statistics Tracker website in collaboration with a team using React.<br></br>-Utilized the capabilities of React.js, HTML, and CSS to build a dynamic and responsive user interface,
-            ensuring an efficient and engaging user experience with weekly updates to statistics.<br></br>-Integrated navigation functionality to allow the user to efficiently and effectively navigate between
-            different statistics pages.<br></br>-Implemented a database using Firebase to establish a secure user authentication system, allowing
-            users to sign up and store credentials.
+            <td class ="academic"><a class="project-header">College Football Ranking System | Programmer/Data Analyst | May 2024</a><br></br>-Designed algorithms using Python to rank college football teams in the Big 12 conference based on game outcomes and data from the 2016-17 season.<br></br>-Implemented Colley’s and Massey’s methods to evaluate teams based on various determining factors.<br></br>-Utilized linear algebra concepts such as systems of linear equations, matrix operations, and eigenvalues to analyze data and enhance accuracy of rankings.<br></br>-Processed datasets to extract insights and draw conclusions, showcasing experience in data analysis, Python programming, and mathematical modeling.
             </td>
             <td class="academic"><a class="project-header">Multi-level 2D Platformer Game | Lead Game Developer | Personal Project | August 2023</a><br></br>-Developed a dynamic and engaging multi-level 2D platformer game using Unity Game Engine and C#
           scripting.<br></br>-Implemented player movement mechanics and animations, incorporating player death logic and
@@ -89,14 +86,22 @@ export default function ProjectsPage(){
           </tr>
 
           <tr>
-            <td class ="academic"><a class="project-header">Movie List App | Full-Stack Developer | November 2023</a><br></br>-Developed a React Native mobile app to create an interactive movie information tracker.<br></br>-Utilized Expo for project setup and used a FlatList to display a list of movies on a home screen.<br></br>
+          <td class ="academic"><a class="project-header">NBA Statistics Tracker Website | Full-Stack Developer | December 2023</a><br></br>-Developed an NBA Statistics Tracker website in collaboration with a team using React.<br></br>-Utilized the capabilities of React.js, HTML, and CSS to build a dynamic and responsive user interface,
+            ensuring an efficient and engaging user experience with weekly updates to statistics.<br></br>-Integrated navigation functionality to allow the user to efficiently and effectively navigate between
+            different statistics pages.<br></br>-Implemented a database using Firebase to establish a secure user authentication system, allowing
+            users to sign up and store credentials.
+            </td>
+          </tr>
+
+          <tr>
+          <td class ="academic"><a class="project-header">Movie List App | Full-Stack Developer | November 2023</a><br></br>-Developed a React Native mobile app to create an interactive movie information tracker.<br></br>-Utilized Expo for project setup and used a FlatList to display a list of movies on a home screen.<br></br>
             -Integrated navigation functionality to display pages with relative details upon selecting movie titles.<br></br>-Implemented an efficient user interface allowing the user to fetch additional movie data from an API
             and effectively update the information seen on screen.</td>
           </tr>
 
           <tr>
-            <td class ="academic"><a class="project-header">Recursive Problem Solving with JUnit Testing | Software Tester | April 2023</a><br></br>-Utilized JUnit to test recursive methods to solve various problems, including exponentiation, string
-            reversal, cleaning adjacent characters, and computing Fibonacci numbers.</td>
+          <td class ="academic"><a class="project-header">Recursive Problem Solving with JUnit Testing | Software Tester | April 2023</a><br></br>-Utilized JUnit to test recursive methods to solve various problems, including exponentiation, string
+          reversal, cleaning adjacent characters, and computing Fibonacci numbers.</td>
           </tr>
 
           {/* <tr>
