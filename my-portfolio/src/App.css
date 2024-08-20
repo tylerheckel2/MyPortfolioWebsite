@@ -152,3 +152,38 @@ footer {
   font-weight:500;
   color: black;
 }
+
+.about-box {
+  background-color: rgb(243, 239, 239); /* Light background color */
+  border: 4px solid #2980b9; /* Border around the box */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Padding inside the box */
+  margin: 20px auto; /* Center the box horizontally */
+  max-width: 550px; /* Set a maximum width */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.connect-box {
+  background-color: rgb(243, 239, 239); /* Light background color */
+  border: 4px solid #2980b9; /* Border around the box */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Padding inside the box */
+  margin: 20px auto; /* Center the box horizontally */
+  max-width: 275px; /* Set a maximum width */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.projectlink-box {
+  background-color: rgb(243, 239, 239); /* Light background color */
+  border: 4px solid #2980b9; /* Border around the box */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Padding inside the box */
+  margin: 20px auto; /* Center the box horizontally */
+  max-width: 450px; /* Set a maximum width */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.center-text {
+  margin: 20px auto;
+  max-width: 550px;
+}

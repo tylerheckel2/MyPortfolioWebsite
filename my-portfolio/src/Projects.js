@@ -117,8 +117,8 @@ export default function ProjectsPage(){
           </div>
     </div>
     <h2>GitHub Project Links</h2>
-        <div class ="typing-area">
-        <p class ="typing-area">
+        <div className = "projectlink-box">
+        <p>
             <a href="https://github.com/tylerheckel2">GitHub Profile</a><br></br><a href="https://github.com/Chegarty123/SEOpenCourtFinal.git">OpenCourt App</a> | <a href="https://github.com/tylerheckel2/NBAStatsWebsiteProject.git">NBA Statistics Tracker Website</a> | <a href="https://github.com/tylerheckel2/MultiLevel2DPlatformerGame.git">Multi-level 2D Platformer Game</a> | <a href="https://github.com/tylerheckel2/CulinaryCaverns">Culinary Caverns</a> | <a href="https://github.com/tylerheckel2/MyPortfolioWebsite">This Website</a>
         </p>
         </div>
