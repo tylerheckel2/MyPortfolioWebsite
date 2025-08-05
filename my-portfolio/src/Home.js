@@ -42,7 +42,7 @@ export default function HomePage() {
       <section id="about">
         <h2>About Me</h2>
         <div className ="about-box">
-        <p>Hello, I am Tyler Heckel and I am from Port Chester, New York. I am a Senior attending Villanova University on track to graduate with my Bachelor of Science degree
+        <p>Hello, I am Tyler Heckel and I am from Port Chester, New York. I am a Senior attending Villanova University on track to graduate with a Bachelor of Science degree
             in May 2026. I am majoring in Computer Science and minoring in Cybersecurity and Engineering Entrepreneurship. I aspire to be a successful Software Engineering or Cybersecurity professional
             and I am actively searching for full-time opportunities to advance my career and expand my knowledge upon graduation. I have developed this website myself to showcase
             my talent, professional experience, and project portfolio.
