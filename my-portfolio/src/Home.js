@@ -51,7 +51,7 @@ export default function HomePage() {
         <h2>Connect With Me</h2>
         <div className = "connect-box">
         <p>
-            Email: <a href="mailto:tylerheckel2@gmail.com">tylerheckel2@gmail.com</a><br></br>Cellphone Number: 914-758-2243<br></br><a href="https://github.com/tylerheckel2">GitHub</a> | <a href="https://villanova.joinhandshake.com/stu/users/40794812">Handshake</a> | <a href="https://www.linkedin.com/in/tyler-heckel-1434b52b4/">LinkedIn</a> | <a href="https://tylerheckel2.itch.io/">Itch.io</a>
+            Email: <a href="mailto:tylerheckel2@gmail.com">tylerheckel2@gmail.com</a><br></br>Cellphone Number: 914-758-2243<br></br><a href="https://github.com/tylerheckel2" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://villanova.joinhandshake.com/stu/users/40794812" target="_blank" rel="noopener noreferrer">Handshake</a> | <a href="https://www.linkedin.com/in/tyler-heckel-1434b52b4/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href="https://tylerheckel2.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>
         </p>
         </div>
       </section>

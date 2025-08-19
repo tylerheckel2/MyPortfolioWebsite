@@ -64,7 +64,7 @@ export default function SkillsPage(){
         <tbody>
           <tr class ="td-typing-area">
             <td>Java, Javascript, C, C#, Python, HTML, CSS, Dart, R, Ruby.</td>
-            <td>Git, GitHub, Eclipse, Visual Studio Code, Unity Game Engine, React, React Native, Unix, Firebase, Expo, JSON, JUnit, Bootstrap, Flutter, Android Studio, LucidChart, Trello, Anchorpoint, WebGL, Jupyter, VirtualBox, SQL, Webflow, Figma, Archer, Excel, PowerPoint, Word.</td>
+            <td>Git, GitHub, Eclipse, Visual Studio Code, Unity Game Engine, React, React Native, Unix, Firebase, Expo, JSON, JUnit, Bootstrap, Flutter, Android Studio, LucidChart, Trello, WebGL, Jupyter, VirtualBox, SQL, Webflow, Figma, Archer, Splunk, Cyble Vision, Microsoft Defender, Excel, PowerPoint, Word.</td>
             <td>Bilingual with Seal of Biliteracy and Proficiency in English and Spanish.</td>
           </tr>
           {/* <tr>
