@@ -62,7 +62,14 @@ export default function ProjectsPage(){
         </thead>
         <tbody>
           <tr class ="td-typing-area">
-            <td class="academic"><a class="project-header">OpenCourt App | Full-Stack Developer | January 2024 - May 2024</a><br></br>-Collaborated with a team to develop a pickup basketball app compatible with Android and Web
+            <td class="academic"><a class="project-header"><a href="https://github.com/tylerheckel2/M2M-File-Transfer-System">M2M File Transfer System | Software Engineer | Villanova University | March 2025 - May 2025</a></a><br></br>-Developed a simplified FTP-style client-server system using Python sockets to simulate machine-to-machine (M2M) communication in a controlled network environment.<br></br>-Engineered TCP-based socket communication to enable reliable file uploads, downloads, and session termination between autonomous client and server components.<br></br>-Designed and implemented core M2M principles including connection establishment, command parsing, and file integrity verification, mimicking real-world IoT device interactions.<br></br>-Conducted structured simulations to validate system reliability and ensure consistent performance.
+            </td>
+            <td class="academic"><a class="project-header"><a href="https://github.com/tylerheckel2/Encryption-Algorithm-Simulation">Encryption Algorithm Simulation  | Software Engineer | Personal Project | November 2024 - December 2024</a></a><br></br>-Developed two interactive Python programs to simulate symmetric (AES) and asymmetric (RSA) encryption using the cryptography library.<br></br>-Implemented AES encryption with Fernet, including key generation, message encryption/decryption, and a user-friendly console interface.<br></br>-Built RSA encryption functionality with key pair generation, secure key storage using PEM files, and message encryption/decryption using OAEP padding and SHA-256 hashing.<br></br>-Enabled file-based key and message management to simulate real-world secure communication workflows.
+            </td>
+          </tr>
+
+          <tr class ="td-typing-area">
+            <td class="academic"><a class="project-header"><a href="https://github.com/Chegarty123/SEOpenCourtFinal.git">OpenCourt App | Full-Stack Developer | January 2024 - May 2024</a></a><br></br>-Collaborated with a team to develop a pickup basketball app compatible with Android and Web
           devices, utilizing the capabilities of Flutter and Dart to enable users to efficiently organize pickup
           basketball games.<br></br>-Utilized HTML and CSS styling to create an engaging and interactive user interface for efficient
           navigation between pages and access to various app features.<br></br>-Integrated Google Maps API functionality to display an interactive satellite map of Villanova
@@ -119,7 +126,7 @@ export default function ProjectsPage(){
     <h2>GitHub Project Links</h2>
         <div className = "projectlink-box">
         <p>
-            <a href="https://github.com/tylerheckel2">GitHub Profile</a><br></br><a href="https://github.com/Chegarty123/SEOpenCourtFinal.git">OpenCourt App</a> | <a href="https://github.com/tylerheckel2/NBAStatsWebsiteProject.git">NBA Statistics Tracker Website</a> | <a href="https://github.com/tylerheckel2/MultiLevel2DPlatformerGame.git">Multi-level 2D Platformer Game</a> | <a href="https://github.com/tylerheckel2/CulinaryCaverns">Culinary Caverns</a> | <a href="https://github.com/tylerheckel2/MyPortfolioWebsite">This Website</a>
+            <a href="https://github.com/tylerheckel2">GitHub Profile</a><br></br><a href="https://github.com/Chegarty123/SEOpenCourtFinal.git">OpenCourt App</a> | <a href="https://github.com/tylerheckel2/NBAStatsWebsiteProject.git">NBA Statistics Tracker Website</a> | <a href="https://github.com/tylerheckel2/MultiLevel2DPlatformerGame.git">Multi-level 2D Platformer Game</a> | <a href="https://github.com/tylerheckel2/CulinaryCaverns">Culinary Caverns</a> | <a href="https://github.com/tylerheckel2/Encryption-Algorithm-Simulation">Encryption Algorithm Simulation</a> | <a href="https://github.com/tylerheckel2/M2M-File-Transfer-System">M2M File Transfer System</a> | <a href="https://github.com/tylerheckel2/MyPortfolioWebsite">This Website</a>
         </p>
         </div>
       <footer>
